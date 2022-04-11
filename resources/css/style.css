@@ -1,0 +1,301 @@
+/* ========================================================================= */
+
+/* =============================  BASIC SETUP  ============================== */
+
+/* ========================================================================= */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Lato', 'Arial', sans-serif;
+    background-color: #eceeef;
+    font-size: 20px;
+    font-weight: 300;
+    color: #555;
+    text-rendering: optimizeLegibility;
+}
+
+/* ========================================================================= */
+
+/* =========================  REUSABLE COMPONENTS  ========================= */
+
+/* ========================================================================= */
+h1,
+h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 260%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+     
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+/*    color: #000;*/
+    
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+
+/* ======================================================================== */
+
+/* =============================  HEADER SETUP ============================ */
+
+/* ======================================================================== */
+
+header {
+    height: 80vh;
+    background-image: linear-gradient(rgba(85, 85, 85, 0.2), rgba(85, 85, 85, 0.2)), url(images/carshop-car-supermarket_720.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    position: relative;
+    background-attachment: fixed;
+}
+
+.logo {
+    text-align: left;
+    width: 200px;
+    padding-top: 10px;
+}
+
+.headerText {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+   transform: translate(-60%, 10%);
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/* ======================================================================== */
+
+/* ==========================  SECTION car List  ========================== */
+
+/* ======================================================================== */
+
+
+.section-cars {
+    padding: 0;
+   
+}
+
+.cars-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.cars-showcase li {
+    display: block;
+    float: left;
+    width: 33%;
+}
+
+.car-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.car-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.car-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.table th {
+   color: rgba(0, 49, 255, 0.91); 
+     font-size: 100%;
+}
+
+/* ======================================================================== */
+
+/* =============================  SECTION PLANS   ============================ */
+
+/* ======================================================================== */
+
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-car {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+
+/* ======================================================================== */
+
+/* ===========================  SECTION SEARCH-CARS ======================= */
+
+/* ======================================================================== */
+
+
+.search-cars {
+    padding: 80px 0;
+}
+.form-inline {
+    padding-bottom: 40px;
+}
+
+
+/* ----- ICONS ----- */
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+
+/* ======================================================================== */
+
+/* =============================  FOOTER      ============================ */
+
+/* ======================================================================== */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}

@@ -1,0 +1,108 @@
+{
+  "vehicles": [
+    {
+    "id": 12345, 
+    "makeName": "FORD",
+    "Price": 350, 
+    "year": 2011,
+    "color": "BLACK"
+},
+{
+    "id": 23477, 
+    "makeName": "VOLVO",
+    "Price": 450, 
+    "year": 2012,
+    "color": "GOLD"
+},
+{
+    "id": 454177, 
+    "makeName": "MERCEDES-BENZ",
+    "Price": 550, 
+    "year": 2013,
+    "color": "GRAY"
+},
+{
+  "id": 564177, 
+  "makeName": "BMW",
+  "Price": 750, 
+  "year": 2018,
+  "color": "RED"
+},
+{
+  "id": 67895, 
+  "makeName": "MERCEDES-BENZ",
+  "Price": 750, 
+  "year": 2002,
+  "color": "BLACK"
+},
+{
+  "id": 78563, 
+  "makeName": "FORD",
+  "Price": 950, 
+  "year": 2018,
+  "color": "BLUE"
+},
+{
+  "id": 87895, 
+  "makeName": "MERCEDES-BENZ",
+  "Price": 850, 
+  "year": 2012,
+  "color": "RED"
+}
+],
+"statistics": [
+  {
+    "mpg": 17.7,
+    "luggageCapacitySeatsUp": 224,
+    "fuelCapacity": 35,
+    "width": 1658,
+    "topSpeed": 99,
+    "insuranceGroup": "3E",
+    "ncapStarRating": null
+  },
+  {
+    "mpg": 27.7,
+    "luggageCapacitySeatsUp": 224,
+    "fuelCapacity": 35,
+    "width": 1658,
+    "topSpeed": 99,
+    "insuranceGroup": "3E",
+    "ncapStarRating": null
+  },
+  {
+    "mpg": 3.7,
+    "luggageCapacitySeatsUp": 224,
+    "fuelCapacity": 35,
+    "width": 1658,
+    "topSpeed": 99,
+    "insuranceGroup": "3E",
+    "ncapStarRating": null
+  },
+  {
+    "mpg": 57.7,
+    "luggageCapacitySeatsUp": 224,
+    "fuelCapacity": 35,
+    "width": 1658,
+    "topSpeed": 99,
+    "insuranceGroup": "3E",
+    "ncapStarRating": null
+  }
+],
+   "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  } 
+}
